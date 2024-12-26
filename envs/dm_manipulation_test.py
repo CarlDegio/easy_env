@@ -9,7 +9,7 @@ print('--------------------------------')
 print('\n'.join(manipulation.get_environments_by_tag('vision')))
 
 env = manipulation.load('reach_site_vision', seed=42)
-viewer.launch(env)
+# viewer.launch(env)
 action_spec = env.action_spec()
 
 
